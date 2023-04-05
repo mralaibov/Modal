@@ -5,3 +5,29 @@
 body {
   margin: 0;
 }
+
+button {
+  border: none;
+  background: white;
+  padding: 2rem;
+}
+.wrapper-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+.other-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+.other-content button {
+  background: black;
+  color: white;
+}
